@@ -8,7 +8,7 @@ Update the path with the name of your diagram] https://drive.google.com/file/d/1
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
 
-  - [Filebeat, Metricbeat, ELK playbooks](C:\Users\Tiia - School\Downloads\README\README)
+  - [Filebeat, Metricbeat, ELK playbooks]~/Cybersecurity-Project-1/Ansible
 
 This document contains the following details:
 - Description of the Topology
@@ -65,14 +65,14 @@ Ansible was used to automate configuration of the ELK machine. No configuration 
 
 The playbook implements the following tasks:
 - Installs docker.io
-- Instally python3
+- Installs python3
 - Installs Docker Python module
 - Increases virtual/use more memory
 - Downloads and launches a docker elk container
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-[Docker PS output](~/Downloads/README/README/Images)
+[Docker PS output]~/Cybersecurity-Project-1/Images
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
