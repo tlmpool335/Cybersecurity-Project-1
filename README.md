@@ -4,7 +4,7 @@ Showcase of creating and syncing repositories, creating readme, mark down, and g
 
 The files in this repository were used to configure the network depicted below.
 
-![TODO: Update the path with the name of your diagram] https://drive.google.com/file/d/1yHjs_iEnLhbx87v75RS9715pT_3CdNXr/view?usp=sharing
+Update the path with the name of your diagram] https://drive.google.com/file/d/1yHjs_iEnLhbx87v75RS9715pT_3CdNXr/view?usp=sharing
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
 
@@ -95,7 +95,7 @@ SSH into the control node and follow the steps below:
 $ cd /etc/ansible
 $ mkdir files
 # Clone Repository + IaC Files
-$ git clone https://github.com/yourusername/project-1.git
+$ git clone https://github.com/tlmpool335/Cybersecurity-Project-1
 # Move Playbooks and hosts file Into `/etc/ansible`
 $ cp project-1/playbooks/* .
 $ cp project-1/files/* ./files
