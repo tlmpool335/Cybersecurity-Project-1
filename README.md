@@ -105,11 +105,11 @@ $ cp project-1/files/* ./files
 $ cd /etc/ansible
 $ cat > hosts <<EOF
 [webservers]
-10.0.0.5
 10.0.0.6
+10.0.0.7
 
 [elk]
-10.0.0.8
+10.0.0.4
 EOF
 - Run the playbook, and navigate to curl http://10.0.0.7:5601 to check that the installation worked as expected.
 $ cd /etc/ansible
